@@ -20,8 +20,8 @@
         echo $Test1;
         echo "<br>Hello World<br>";
     // 4. 2 Variabelen.
-        $woord1 = "<h1>Hello</h1>";
-        $woord2 = "<h1>World</h1><br>";
+        $woord1 = "Hello";
+        $woord2 = "World<br>";
         echo $woord1;
         echo $woord2;
     // 5. Array.

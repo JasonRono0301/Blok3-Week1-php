@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+   margin: auto;
+   padding: 0;
+}
+
+.morning{
+   background-image: url("Assets/B3W21O1_images/morning.png");
+   background-size: cover;
+}
+
+.night{
+   background-image: url("Assets/B3W21O1_images/night.png");
+   background-size: cover;
+}
+
+.afternoon{
+   background-image: url("Assets/B3W21O1_images/afternoon.png");
+   background-size: cover;
+}
+
+.evening{
+   background-image: url("Assets/B3W21O1_images/evening.png");
+   background-size: cover;
+}

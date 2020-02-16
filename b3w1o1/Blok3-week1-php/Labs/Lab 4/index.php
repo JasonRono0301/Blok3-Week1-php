@@ -8,9 +8,30 @@
 </head>
 <body>
     <?php
-        
+        $favColor = 'rood';
 
-    
+        switch ($favColor){
+
+            case 'paars';
+                echo "druiven zijn paars";
+                break;
+
+            case 'bruin';
+            case 'geel';
+                echo "bananen zijn geel, maar kunnen ook bruin zijn";
+            break;
+
+            case 'oranje';
+                echo "sinaas";
+
+            case 'groene';
+            case 'rood';
+                echo "appels zijn".$favColor;
+                break;
+            
+            default:
+                echo "voor". $favColor. " is geen fruit bekend";
+        }
     
     
     
